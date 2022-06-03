@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;1,100;1,300;1,400;1,700&display=swap"
+        rel="stylesheet" />
+    <script src="https://kit.fontawesome.com/104b508d4f.js" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="./css/main.css" />
+
+    <title>Les Produits | FLOU STORE</title>
+</head>
+
+<body>
+    <header id="header" class="bg">
+        <div class="site__section__container">
+            <div class="header__content">
+                <div class="logo">
+                    <a class="logo__link" href="/">
+                        <i class="fas fa-code"></i><span>FLOU Store</span>
+                    </a>
+                </div>
+                <div class="navigation">
+                    <nav>
+                        <a id="navbar-toggle" href="#"><span id="burger"></span></a>
+                        <ul class="menu">
+                            <li class="menu__item">
+                                <a href="#" class="menu__link">Produits</a>
+                            </li>
+                            <li class="menu__item">
+                                <a href="./apropos.html" class="menu__link">À propos</a>
+                            </li>
+                            <span id="theme">
+                                <i></i>
+                            </span>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main id="site">
+        <div class="site__content">
+
+            <section id="page" class="bg">
+                <div class="site__section__container">
+
+                    <div class="section__title">
+                        <h1>Blog</h1>
+                    </div>
+
+                    <div class="section__content posts" id="products"></div>
+
+                </div>
+            </section>
+        </div>
+    </main>
+
+
+    <footer id="footer">
+        <div class="site__section__container">
+
+            <div class="footer__content">
+
+                <div class="footer__content--child media">
+                    <div class="logo">
+                        <a class="logo__link" href="#">
+                            <i class="fas fa-code"></i><span>SYNTAX</span>
+                        </a>
+                    </div>
+                    <hr class="separator">
+                    <h2 class="footer__title">Follow Us</h2>
+                    <ul class="social__list">
+                        <li class="footer__link--item icon"><a href=""><i class="fa fa-facebook"></i></a></li>
+                        <li class="footer__link--item icon"><a href=""><i class="fa fa-instagram"></i></a></li>
+                        <li class="footer__link--item icon"><a href=""><i class="fa fa-twitter"></i></a></li>
+                        <li class="footer__link--item icon"><a href=""><i class="fa fa-rss"></i></a></li>
+                    </ul>
+                </div>
+        </div>
+
+        <div class="copyright">
+            <hr>
+            <p class="">
+                Copyright &copy 2021 <a href="" class="site__link">SYNTAX.COM</a>.<br>
+                Créé par Syntax ❤️ <span class="hashtag">ESIH</span></p>
+        </div>
+    </footer>
+
+    <div class="setting">
+        <a id="setting__button" title='Change Color Theme'><i class="fas fa-cogs"></i></a>
+        <div id="theme-color">
+            <button class="option" id="theme-default"></button>
+            <button class="option" id="theme-vert"></button>
+            <button class="option" id="theme-bleu"></button>
+            <button class="option" id="theme-rose"></button>
+            <button class="option" id="theme-violet"></button>
+            <button class="option" id="theme-jaune"></button>
+        </div>
+    </div>
+
+    <script type="text/javascript" src="./js/script.js"></script>
+</body>
+
+</html>
